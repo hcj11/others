@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD com.Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.Mapper.UserIdentityMapper">
+
+  <resultMap type="userIdentity" id="userIdentity">
+    <id column="id" property="id" javaType="Integer" jdbcType="INTEGER"/>
+    <result column="address" property="address"/>
+  </resultMap>
+  <!--缓存1024 个对象-->
+
+  <cache type="com.Service.Cache.RedisCacheService"  size="1024"
+    flushInterval="10000" eviction="LRU" />
+  <!--<cache eviction="LRU" flushInterval="100000" size="1024"/>-->
+
+  <select id="findOne" resultType="userIdentity" parameterType="int">
+    SELECT * FROM user_identity where  id = #{id}
+  </select>
+
+  <select id="findAll" resultMap="userIdentity" >
+    SELECT * FROM user_identity
+  </select>
+
+
+  <insert  id="putObject" parameterType="userIdentity" useGeneratedKeys="true" keyProperty="id"
+  flushCache="false">
+    <selectKey keyProperty="id" resultType="int" order="BEFORE">
+      <!-- 主键设置规则在生成数据之前 设置主键?  -->
+      select if(max(id) is NULL ,1,max(id)+1) as user_identity from user_identity
+    </selectKey>
+    INSERT  into  user_identity(id,address) VALUES (#{id},#{address})
+  </insert>
+
+  <update id="update" parameterType="userIdentity">
+    update user_identity set address=#{address} where id = #{id}
+  </update>
+
+
+</mapper>

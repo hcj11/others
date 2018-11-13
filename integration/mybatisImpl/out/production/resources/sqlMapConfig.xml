@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration  PUBLIC "-//mybatis.org//DTD com.Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+      <setting name="cacheEnabled" value="true"/>
+      <!--<setting name="lazyLoadingEnabled" value="true"/>-->
+      <!--<setting name="aggressiveLazyLoading" value="false"/>-->
+      <!--<setting name="defaultExecutorType" value="BATCH"/>-->
+      <setting name="defaultStatementTimeout" value="25000"/>
+    </settings>
+
+  <plugins>
+    <plugin interceptor="com.Mapper.MyPlugins">
+      <property name="dbType" value="Mysql"/>
+    </plugin>
+    <plugin interceptor="com.github.pagehelper.PageHelper">
+      <property name="dialect" value="mysql"/>
+      <property name="offsetAsPageNum" value="false"/>
+      <property name="rowBoundsWithCount" value="false"/>
+      <property name="pageSizeZero" value="true"/>
+      <property name="reasonable" value="false"/>
+      <property name="supportMethodsArguments" value="false"/>
+      <property name="returnPageInfo" value="none"/>
+    </plugin>
+    <!--<plugin interceptor="com.Mapper.SelectLimitPlugins">-->
+      <!--<property name="limit" value="1"/>-->
+    <!--</plugin>-->
+    <!--<plugin interceptor="com.Mapper.PagePlugins">-->
+        <!--<property name="page" value="1"/>-->
+        <!--<property name="pageSize" value="5"/>-->
+        <!--<property name="useFlag" value="true"/>-->
+        <!--<property name="checkFlag" value="true"/>-->
+    <!--</plugin>-->
+  </plugins>
+</configuration>

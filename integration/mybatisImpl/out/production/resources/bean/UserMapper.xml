@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD com.Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.Mapper.UserMapper"> <!--mapper  -->
+  <resultMap type="user" id="userList">
+    <!-- type为返回列表元素的类全名或别名 映射器-->
+    <id column="id" property="id" javaType="Integer" jdbcType="INTEGER"/>
+    <result column="username" property="username" typeHandler="com.Config.MyTypeHandler"/>
+    <result column="password" property="password"/>
+    <result column="sex" property="sex" typeHandler="com.Config.CustomEnumTypeHandler"/>
+    <!--<result column="sex" property="sex" typeHandler="com.Config.CustomEnumTypeHandler"/>-->
+    <result column="enabled" property="enabled" />
+    <result column="role_id" property="roleId" />
+    <!--关联级别 column="id"  -> 数据库的.. -->
+    <association column="id" property="userIdentity" select="com.Mapper.UserIdentityMapper.findOne" fetchType="lazy"/>
+    <!--<association property="id" column="id" select="com.Mapper.role"/>-->
+    <discriminator javaType="int" column="sex">
+      <case value="1" resultMap="maleHealthMap"/>
+      <case value="2" resultMap="feMaleHealthMap"/>
+    </discriminator>
+  </resultMap>
+  <cache type="com.Service.Cache.RedisCacheService"  size="1024"
+    flushInterval="10000" eviction="LRU" />
+
+  <resultMap id="maleHealthMap" type="com.Domain.MaleHealth" extends="userList">
+    <collection property="maleHealths" column="id"
+      select="com.Mapper.MaleHealthMapper.findOne" fetchType="lazy"/>
+  </resultMap>
+
+  <resultMap id="feMaleHealthMap" type="com.Domain.FeMaleHealth"  extends="userList">
+    <collection fetchType="lazy" property="feMaleHealths" column="id" select="com.Mapper.FeMaleHealthMapper.findOne"/>
+  </resultMap>
+
+
+  <insert id="insert" parameterType="user" useGeneratedKeys="true" keyProperty="id" >
+    <selectKey keyProperty="id" resultType="int" order="BEFORE">
+      <!-- 主键设置规则在生成数据之前 设置主键?  -->
+        select if(max(id) is NULL ,1,max(id)+1) as newId from users
+    </selectKey>
+    insert into users(id,username,
+    password,enabled,sex) values(#{id},#{username}, #{password},#{enabled},#{
+      sex,typeHandler=com.Config.CustomEnumTypeHandler
+    })
+  </insert>
+
+  <update id="update" parameterType="map" flushCache="true">
+    update users set password=#{password}  where username=#{username}
+  </update>
+  <select id="selectUser" parameterType="String" resultType="user">
+    SELECT * FROM users WHERE username = #{username}
+  </select>
+  <select id="selectAllOrderByPassword"  resultMap="userList">
+    SELECT * FROM users order by password desc
+  </select>
+
+  <select id="selectAll" resultMap="userList">
+    SELECT * FROM users
+  </select>
+
+  <select id="selectAllWithPage" resultMap="userList">
+      SELECT * FROM users limit ${page} , ${size}
+  </select>
+
+  <select id="findOne" resultMap="userList" parameterType="int">
+    <!--<if test="id > 1">-->
+      SELECT * FROM users WHERE id = #{id}
+    <!--</if>-->
+  </select>
+  <!--<select id="findOne" resultMap="userList" parameterType="int">-->
+   <!--<choose>-->
+     <!--<when test="" />-->
+     <!--<otherwise />-->
+   <!--</choose>-->
+  <!--</select>-->
+
+
+  <select id="findListByRoleId" resultMap="userList" parameterType="int">
+    SELECT * FROM users WHERE role_id= #{role_Id}
+  </select>
+</mapper>

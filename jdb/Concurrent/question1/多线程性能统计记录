@@ -1,0 +1,58 @@
+###  多线程求和统计
+		清除gc后,
+a. 在不使用任何机制求结果，多观察几次
+		不使用 Executors 
+			common  done in: : fastest: 1 msecs
+			common  done in: : average: 8 msecs
+			错误率: 1/10
+		使用 Executors
+			common  done in: : fastest: 1 msecs
+			common  done in: : average: 2 msecs
+			错误率: 2/10
+b. 使用synchronized
+		synchronized  done in: : fastest: 1 msecs
+		synchronized  done in: : average: 3 msecs
+		错误率: 0
+		synchronized  done in: : fastest: 1 msecs
+		synchronized  done in: : average: 1 msecs
+		错误率: 0
+c. 使用java.util.concurrent.Lock
+
+d. 使用ConcurrentLinkedQueue
+		ConcurrentLinkedQueue  done in: : fastest: 1 msecs
+		ConcurrentLinkedQueue  done in: : average: 2 msecs
+		错误率: 0
+		ConcurrentLinkedQueue  done in: : fastest: 1 msecs
+		ConcurrentLinkedQueue  done in: : average: 1 msecs
+		错误率: 4/10
+e. 使用CountDownLatch
+		CountDownLatch done in: : fastest: 1 msecs
+		CountDownLatch done in: : average: 9 msecs
+		错误率: 0
+		CountDownLatch done in: : fastest: 1 msecs
+		CountDownLatch done in: : average: 1 msecs
+		错误率: 3/10
+f. 使用Semaphore
+		Semaphore done in: : fastest: 2 msecs
+		Semaphore done in: : average: 6 msecs
+		错误率: 0
+			很容易在join操作时,某个线程一直阻塞, 
+		1.  可能是测试时创建的线程太多了?,回收的速度却很慢,导致线程竞争激烈?
+		Semaphore done in: : fastest: 1 msecs
+		Semaphore done in: : average: 1 msecs
+		错误率: 0
+g.使用FutureTask
+		FutureTask done in: : fastest: 1 msecs
+		FutureTask done in: : average: 6 msecs
+		错误率: 0
+		FutureTask done in: : fastest: 0 msecs
+		FutureTask done in: : average: 2 msecs
+	
+g. 可以采用Executor框架配合线程池 统一管理线程的生命周期 vs  不使用线程池技术的 效率对比,  
+	1.若线程数不断的上升,那么 
+	2.并且正确性并不是100%, 并且使用了Executor之后,也是有错误的,不过正确率上来了,, 为什么还是有错误呢?->{适用于对于结果要求不是太准确的,或者不要求结果的,[观察打印的结果都是有的.]}
+	3.
+	
+	
+	
+	

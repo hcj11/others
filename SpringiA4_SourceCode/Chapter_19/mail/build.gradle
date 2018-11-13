@@ -1,0 +1,65 @@
+buildscript {
+    repositories {
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        mavenLocal()
+        jcenter()
+        maven { url "http://repo.spring.io/plugins-release" }
+        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "https://repository.cloudera.com/content/repositories/releases/" }
+        maven { url "http://repo.hortonworks.com/content/repositories/releases/" }
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${spring_boot_version}"
+    }
+}
+plugins {
+    id 'io.franzbecker.gradle-lombok' version '1.12'
+    id 'java'
+}
+
+repositories {
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    maven { url "http://repo2.maven.org/maven2/" }
+    maven { url "https://repository.cloudera.com/content/repositories/releases/" }
+    maven { url "http://repo.hortonworks.com/content/repositories/releases/" }
+    mavenLocal()
+}
+
+apply plugin: 'eclipse'
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+apply plugin: 'org.springframework.boot'
+
+
+dependencies {
+    compile "org.springframework:spring-context:$springVersion"
+    compile "org.springframework:spring-context-support:$springVersion"
+    compile "javax.mail:mail:$javaxMailVersion"
+
+    testCompile "junit:junit-dep:$junitVersion"
+    testCompile "org.springframework:spring-test:$springVersion"
+    compile("org.springframework.boot:spring-boot-starter-web:1.5.10.RELEASE") {
+        exclude group: "org.springframework.boot", module: "spring-boot-starter-logging"
+        exclude group: "org.springframework.boot", module: "spring-boot-starter-tomcat"
+    }
+    compile(
+            "org.springframework.boot:spring-boot-starter-actuator:1.5.10.RELEASE",
+            "org.springframework.boot:spring-boot-starter-undertow:1.5.10.RELEASE"
+    )
+    compileOnly group: 'org.mortbay.jetty', name: 'jetty', version: '6.1.26'
+    compileOnly group: 'org.mortbay.jetty', name: 'jetty-sslengine', version: '6.1.26'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.0'
+}
+jar {
+    baseName = 'mail'
+    version = '1.0'
+}
+springBoot {
+    mainClass = 'spittr.CerberusApplication'
+    executable = true
+    buildInfo()
+}

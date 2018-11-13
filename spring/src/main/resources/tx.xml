@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:aop="http://www.springframework.org/schema/aop"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/aop
+  http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/context
+		 http://www.springframework.org/schema/context/spring-context.xsd">
+  <!-- 启用代理 默认是jdk  对于被代理类没有实现其他接口的的-->
+  <!-- proxy-target-class="true" 使用cglib代理 ,对于未实现多个接口的类来用,,  通过字节码->机器码,加快执行效率-->
+  <!--<aop:aspectj-autoproxy/>-->
+  <aop:aspectj-autoproxy proxy-target-class="true"/>
+  <context:load-time-weaver aspectj-weaving="on"/>
+  <bean name="proxyConfig" class="bean.proxy.jdkProxy.ProxyConfig"/>
+  <bean name="jdkProxyImpl" class="bean.proxy.jdkProxy.jdkProxyImpl"/>
+  <bean name="baseTest" class="bean.proxy.baseTest.baseTest"></bean>
+  <bean name="helloProxy" class="bean.proxy.baseTest.helloProxy"/>
+</beans>

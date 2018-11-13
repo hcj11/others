@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/8e91e0115d5cd554d65b95290369eadbf938bdff" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HadoopDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Java8InAction" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MirServiceGate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spring-framework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ThinkingInJava" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aurora" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cerberus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data-center" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dynamic-beans-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eigenbase-properties" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iEasyUI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/integration/nosql-mongo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/integration/spring-boot-leaning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/logback" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/machine-learning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/maven_hadoop_template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mybatis-source/spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/netty-in-action" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/parse-resume" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rabbitmq-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react-java-goos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/redis-in-action" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-boot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-cloud-task-modules" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webmagic" vcs="Git" />
+  </component>
+</project>

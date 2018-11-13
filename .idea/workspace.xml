@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96b977a2-7f26-4e83-803a-287da6d89dfa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/.bowerrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/.yo-rc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/docker.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/graphite.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/liquibase.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/mapstruct.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/profile_dev.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/profile_prod.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/prometheus.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/sonar.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/swagger.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/yeoman.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradle/zipkin.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gulp/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gulp/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gulp/copy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gulp/handle-errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gulp/inject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gulp/serve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gulp/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/docker/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/docker/app.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/docker/hazelcast-management-center.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/docker/mysql.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/docker/sonar.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/docker/swagger-editor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/ApplicationWebXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/JhipsterApplicationApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/aop/logging/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/ApplicationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/AsyncConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/CacheConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/CloudDatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/DateTimeFormatConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/DefaultProfileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/GatewayConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/JacksonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/LocaleConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/LoggingAspectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/LoggingConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/MetricsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/ThymeleafConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/WebConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/apidoc/GatewaySwaggerResourcesProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/audit/AuditEventConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/audit/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/config/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/domain/AbstractAuditingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/domain/Authority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/domain/PersistentAuditEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/domain/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/gateway/TokenRelayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/gateway/accesscontrol/AccessControlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/gateway/ratelimiting/RateLimitingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/gateway/responserewriting/SwaggerBasePathRewritingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/repository/AuthorityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/repository/CustomAuditEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/repository/PersistenceAuditEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/repository/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/security/AuthoritiesConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/security/DomainUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/security/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/security/SpringSecurityAuditorAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/security/UserNotActivatedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/security/jwt/JWTConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/security/jwt/JWTFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/security/jwt/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/security/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/service/AuditEventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/service/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/service/dto/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/service/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/service/mapper/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/service/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/service/util/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/AccountResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/AuditResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/GatewayResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/LogsResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/ProfileInfoResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/UserJWTController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/UserResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/BadRequestAlertException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/CustomParameterizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/EmailAlreadyUsedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/EmailNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/ErrorConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/ExceptionTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/FieldErrorVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/InternalServerErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/InvalidPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/LoginAlreadyUsedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/errors/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/util/HeaderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/util/PaginationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/vm/KeyAndPasswordVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/vm/LoggerVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/vm/LoginVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/vm/ManagedUserVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/vm/RouteVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/java/com/mso/app/web/rest/vm/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/config/liquibase/authorities.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/config/liquibase/master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/config/liquibase/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/config/liquibase/users_authorities.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/i18n/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/i18n/messages_zh_cn.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/mails/activationEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/mails/creationEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/mails/passwordResetEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/swagger/api.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/account.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/activate/activate.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/activate/activate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/activate/activate.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/password/password-strength-bar.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/password/password.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/password/password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/password/password.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/register/register.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/register/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/register/register.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/reset/finish/reset.finish.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/reset/finish/reset.finish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/reset/finish/reset.finish.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/reset/request/reset.request.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/reset/request/reset.request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/reset/request/reset.request.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/settings/settings.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/settings/settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/account/settings/settings.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/admin.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/audits/audits.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/audits/audits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/audits/audits.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/audits/audits.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/configuration/configuration.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/configuration/configuration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/configuration/configuration.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/configuration/configuration.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/docs/docs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/docs/docs.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/gateway/gateway-routes.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/gateway/gateway.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/gateway/gateway.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/gateway/gateway.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/health/health.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/health/health.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/health/health.modal.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/health/health.modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/health/health.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/health/health.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/logs/logs.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/logs/logs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/logs/logs.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/logs/logs.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/metrics/metrics.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/metrics/metrics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/metrics/metrics.modal.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/metrics/metrics.modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/metrics/metrics.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/metrics/metrics.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/user-management/user-management-delete-dialog.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/user-management/user-management-delete-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/user-management/user-management-detail.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/user-management/user-management-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/user-management/user-management-dialog.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/user-management/user-management-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/user-management/user-management.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/user-management/user-management.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/admin/user-management/user-management.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/app.constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/app.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/app.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/config/alert.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/config/compile.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/config/http.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/config/localstorage.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/config/translation-storage.provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/config/translation.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/config/uib-pager.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/config/uib-pagination.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/handlers/state.handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/handlers/translation.handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/interceptor/auth-expired.interceptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/interceptor/auth.interceptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/interceptor/errorhandler.interceptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/blocks/interceptor/notification.interceptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/alert/alert-error.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/alert/alert.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/alert/alert.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/form/maxbytes.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/form/minbytes.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/form/pagination.constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/form/show-validation.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/language/language.constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/language/language.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/language/language.filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/language/language.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/login/login.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/login/login.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/base64.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/capitalize.filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/data-util.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/date-util.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/error.constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/jhi-item-count.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/pagination-util.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/parse-links.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/sort-by.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/sort.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/truncate-characters.filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/components/util/truncate-words.filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/entities/entity.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/home/home.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/home/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/home/home.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/layouts/error/accessdenied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/layouts/error/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/layouts/error/error.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/layouts/navbar/active-menu.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/layouts/navbar/navbar.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/layouts/navbar/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/account.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/activate.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/auth.jwt.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/auth.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/has-any-authority.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/has-authority.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/password-reset-finish.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/password-reset-init.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/password.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/principal.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/auth/register.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/profiles/page-ribbon.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/profiles/profile.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/app/services/user/user.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/content/css/documentation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/content/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/content/images/hipster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/content/images/hipster2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/content/images/logo-jhipster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/activate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/audits.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/error.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/gateway.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/health.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/login.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/logs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/metrics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/password.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/register.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/reset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/sessions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/en/user-management.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/activate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/audits.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/error.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/gateway.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/health.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/login.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/logs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/metrics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/password.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/register.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/reset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/sessions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/i18n/zh-cn/user-management.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/manifest.webapp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/swagger-ui/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/main/webapp/swagger-ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/config/WebConfigurerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/config/WebConfigurerTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/gateway/responserewriting/SwaggerBasePathRewritingFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/repository/CustomAuditEventRepositoryIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/security/SecurityUtilsUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/security/jwt/JWTFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/security/jwt/TokenProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/service/MailServiceIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/service/UserServiceIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/web/rest/AccountResourceIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/web/rest/AuditResourceIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/web/rest/LogsResourceIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/web/rest/ProfileInfoResourceIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/web/rest/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/web/rest/UserJWTControllerIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/web/rest/UserResourceIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/web/rest/errors/ExceptionTranslatorIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/web/rest/errors/ExceptionTranslatorTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/java/com/mso/app/web/rest/util/PaginationUtilUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/app/account/activate/activate.controller.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/app/account/password/password-strength-bar.directive.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/app/account/password/password.controller.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/app/account/register/register.controller.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/app/account/reset/finish/reset.finish.controller.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/app/account/reset/request/reset.request.controller.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/app/account/settings/settings.controller.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/app/admin/health/health.controller.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/app/components/login/login.controller.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/app/services/auth/auth.services.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/helpers/httpBackend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/javascript/spec/helpers/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/resources/i18n/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MirServiceGate/src/test/resources/mails/testEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-center/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-center/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_postgresql_postgresql_42_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_spring_test_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_springframework_spring_tx_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-beans-example/dynamic-beans-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__com_h2database_h2_1_4_194.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_test_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_tx_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/spring-boot-mybatis-with-redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/DataVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/ErrorVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/GoodImgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/GoodImgQueryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/GoodImgVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/SuccessVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/TestQueryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/TestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/TestVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/TestVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/UserResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/error/ErrorVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/error/ExceptionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/error/SuccessVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/testResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webmagic/chawl/src/main/java/com/springboot/chawl/resource/util/PageVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-beans/src/main/java/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-context/src/main/java/org/springframework/context/event/SimpleApplicationEventMulticaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-context/src/main/java/org/springframework/context/event/SimpleApplicationEventMulticaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-context/src/main/java/org/springframework/context/support/ApplicationContextAwareProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-context/src/main/java/org/springframework/context/support/ApplicationContextAwareProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-context/src/test/java/org/springframework/context/annotation/ConfigurationWithFactoryBeanAndAutowiringTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-context/src/test/java/org/springframework/context/annotation/ConfigurationWithFactoryBeanAndAutowiringTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-context/src/test/java/org/springframework/jmx/export/CustomDateEditorRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-context/src/test/java/org/springframework/jmx/export/CustomDateEditorRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-core/src/main/java/org/springframework/core/AliasRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-core/src/main/java/org/springframework/core/AliasRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-jdbc/src/main/java/org/springframework/jdbc/core/metadata/CallMetaDataContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-jdbc/src/main/java/org/springframework/jdbc/core/metadata/CallMetaDataContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-jdbc/src/main/java/org/springframework/jdbc/datasource/DataSourceTransactionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-jdbc/src/main/java/org/springframework/jdbc/datasource/DataSourceTransactionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/TransactionDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/TransactionDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/interceptor/DefaultTransactionAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/interceptor/DefaultTransactionAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/interceptor/TransactionAspectSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/interceptor/TransactionAspectSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/interceptor/TransactionAttributeSourcePointcut.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/interceptor/TransactionAttributeSourcePointcut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/interceptor/TransactionInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/interceptor/TransactionInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/support/AbstractPlatformTransactionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-tx/src/main/java/org/springframework/transaction/support/AbstractPlatformTransactionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-web/src/main/java/org/springframework/web/util/NestedServletException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-web/src/main/java/org/springframework/web/util/NestedServletException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/main/java/org/springframework/web/servlet/FrameworkServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/main/java/org/springframework/web/servlet/FrameworkServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/main/java/org/springframework/web/servlet/HandlerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/main/java/org/springframework/web/servlet/HandlerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/main/java/org/springframework/web/servlet/HandlerExecutionChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/main/java/org/springframework/web/servlet/HandlerExecutionChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/main/java/org/springframework/web/servlet/handler/AbstractUrlHandlerMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/main/java/org/springframework/web/servlet/handler/AbstractUrlHandlerMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/main/java/org/springframework/web/servlet/handler/SimpleServletHandlerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/main/java/org/springframework/web/servlet/handler/SimpleServletHandlerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/test/java/org/springframework/web/servlet/ComplexWebApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-framework/spring-webmvc/src/test/java/org/springframework/web/servlet/ComplexWebApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/main/java/net/mindview/util/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/main/java/net/mindview/util/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aurora/pussycat/src/main/resources/hanlp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/aurora/pussycat/src/main/resources/hanlp.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aurora/pussycat/src/test/resources/hanlp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/aurora/pussycat/src/test/resources/hanlp.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cerberus/src/main/java/com/mshuoke/datagw/conf/hdfs/dataSet/DatasetPreDataTestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cerberus/src/main/java/com/mshuoke/datagw/conf/hdfs/dataSet/DatasetPreDataTestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cerberus/src/main/java/com/mshuoke/datagw/conf/hive/HiveProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cerberus/src/main/java/com/mshuoke/datagw/conf/hive/HiveProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cerberus/src/main/java/com/mshuoke/datagw/domain/pojo/PreDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cerberus/src/main/java/com/mshuoke/datagw/domain/pojo/PreDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cerberus/src/main/java/com/mshuoke/datagw/impl/ValidationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cerberus/src/main/java/com/mshuoke/datagw/impl/ValidationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cerberus/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cerberus/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cerberus/src/main/resources/config/application-preprod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cerberus/src/main/resources/config/application-preprod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cerberus/src/main/resources/config/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cerberus/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cerberus/src/test/java/com/mshuoke/datagw/impl/FromToMap/FromHowToTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cerberus/src/test/java/com/mshuoke/datagw/impl/FromToMap/FromHowToTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cerberus/src/test/java/com/mshuoke/datagw/impl/RemoteOldDatabase/DataAppenderPreDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cerberus/src/test/java/com/mshuoke/datagw/impl/RemoteOldDatabase/DataAppenderPreDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IEtlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IEtlDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IExtractMongoIncreDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IExtractMongoIncreDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IExtractMysqlFullDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IExtractMysqlFullDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IExtractMysqlUpdateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IExtractMysqlUpdateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/ILoadHiveToHbaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/ILoadHiveToHbaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/ILoadHiveToMongoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/ILoadHiveToMongoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/ILoadHiveToMysqlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/ILoadHiveToMysqlDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IParamDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IParamDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IReportCategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IReportCategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IReportDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IReportDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IReportFaherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IReportFaherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IReportRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IReportRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/ISendMailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/ISendMailDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/ITransformDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/ITransformDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/IOperationCreateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/IOperationCreateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/IOperationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/IOperationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/ITimesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/ITimesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/impl/OperationCreateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/impl/OperationCreateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/impl/OperationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/impl/OperationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/impl/OperationEtlCreateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/impl/OperationEtlCreateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/impl/OperationEtlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/impl/OperationEtlDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/impl/TimesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/common/impl/TimesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/EtlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/EtlDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ExtractMongoIncreDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ExtractMongoIncreDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ExtractMysqlFullDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ExtractMysqlFullDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ExtractMysqlUpdateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ExtractMysqlUpdateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/LoadHiveToHbaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/LoadHiveToHbaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/LoadHiveToMongoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/LoadHiveToMongoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/LoadHiveToMysqlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/LoadHiveToMysqlDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ParamDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ParamDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ReportCategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ReportCategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ReportDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ReportDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ReportFaherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ReportFaherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ReportRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/ReportRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/SendMailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/SendMailDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/TransformDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/TransformDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/dao/impl/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/method/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/method/SpringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/DwReportCategoryPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/DwReportCategoryPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/DwReportRolePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/DwReportRolePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/DwRolePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/DwRolePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/DwUserPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/DwUserPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/EtlPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/EtlPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMongoIncrePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMongoIncrePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMysqlFullPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMysqlFullPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMysqlIncreNoParPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMysqlIncreNoParPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMysqlIncrePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMysqlIncrePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMysqlToMysqlPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMysqlToMysqlPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMysqlUpdatePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ExtractMysqlUpdatePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/LoadHiveToHbasePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/LoadHiveToHbasePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/LoadHiveToMongoPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/LoadHiveToMongoPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/LoadHiveToMysqlPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/LoadHiveToMysqlPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ParamPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ParamPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ReportFatherPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ReportFatherPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ReportPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ReportPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ReportResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/ReportResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/SendMailPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/SendMailPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/TransformPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/TransformPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/UserPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/UserPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/common/AbstractCreatePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/common/AbstractCreatePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/common/AbstractCreatePOFather.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/common/AbstractCreatePOFather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/common/AbstractCreatePOU.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/common/AbstractCreatePOU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/common/AbstractPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/common/AbstractPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/common/TimesPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/model/common/TimesPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IEtlExtractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IEtlExtractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IEtlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IEtlService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IExtractMongoIncreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IExtractMongoIncreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IExtractMysqlFullService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IExtractMysqlFullService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IExtractMysqlUpdateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IExtractMysqlUpdateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ILoadHiveToHbaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ILoadHiveToHbaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ILoadHiveToMongoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ILoadHiveToMongoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ILoadHiveToMysqlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ILoadHiveToMysqlService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ILogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ILogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IParamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IParamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IReportCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IReportCategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IReportFatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IReportFatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IReportRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IReportRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ISendMailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ISendMailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ITransformService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/ITransformService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/EtlListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/EtlListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/EtlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/EtlService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ExtractMongoIncreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ExtractMongoIncreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ExtractMysqlFullService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ExtractMysqlFullService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ExtractMysqlUpdateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ExtractMysqlUpdateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/LoadHiveToHbaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/LoadHiveToHbaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/LoadHiveToMongoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/LoadHiveToMongoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/LoadHiveToMysqlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/LoadHiveToMysqlService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ParamListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ParamListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ParamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ParamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ReportCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ReportCategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ReportFatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ReportFatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ReportListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ReportListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ReportRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ReportRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/ReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/SendMailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/SendMailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/TransformService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/TransformService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/UserListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/UserListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/spring/PersistenceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/java/dw/platform/management/biz/spring/PersistenceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-biz/src/main/resources/hibernate/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-biz/src/main/resources/hibernate/persistence-mysql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/EncryptionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/EncryptionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/ConstInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/ConstInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/ConstString.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/ConstString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/DmpClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/DmpClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/EtlClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/EtlClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/StatusCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/TreeNodeTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/enums/TreeNodeTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/method/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/method/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/model/NodeFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/model/NodeFlag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/model/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/model/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/model/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-util/src/main/java/dw/platform/management/util/model/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/Bootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/RestJaxRsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/RestJaxRsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/exception/AuthenticationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/exception/AuthenticationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/exception/CustomExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/exception/CustomExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/exception/MysqlErrorContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/exception/MysqlErrorContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/exception/WebException.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/exception/WebException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/filter/RequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/filter/RequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/request/LoginReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/request/LoginReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/request/base/TimesReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/request/base/TimesReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/ListResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/ListResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LoadHiveToHbaseResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LoadHiveToHbaseResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LoadHiveToMongoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LoadHiveToMongoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LoadHiveToMysqlResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LoadHiveToMysqlResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LogResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LogResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LoginResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LoginResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LogoutResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/LogoutResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/MongoIncreResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/MongoIncreResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/MysqlFullResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/MysqlFullResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/MysqlUpdateResourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/MysqlUpdateResourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/ParamResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/ParamResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/ReportResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/ReportResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/SendMailResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/SendMailResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/TransformResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/TransformResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/resource/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/IdResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/IdResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/SsoUrlResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/SsoUrlResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/TreeResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/TreeResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/UserInfoResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/UserInfoResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/UserResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/UserResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/base/BaseResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/base/BaseResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/base/BeanResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/base/BeanResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/base/ListResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/response/base/ListResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/security/CustomSecurityContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/java/dw/platform/management/web/security/CustomSecurityContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/resources/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/css/print.css" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/css/print.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/css/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/css/typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/css/typography.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/fonts/DroidSans-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/fonts/DroidSans-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/fonts/DroidSans.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/fonts/DroidSans.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/collapse.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/collapse.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/expand.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/expand.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/explorer_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/explorer_icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/logo_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/logo_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/pet_store_api.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/pet_store_api.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/throbber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/throbber.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/wordnik_api.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/images/wordnik_api.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/geo.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/geo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/translator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lang/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/backbone-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/backbone-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/handlebars-2.0.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/handlebars-2.0.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/highlight.9.1.0.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/highlight.9.1.0.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/highlight.9.1.0.pack_extended.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/highlight.9.1.0.pack_extended.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/jquery-1.8.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/jquery-1.8.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/jquery.ba-bbq.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/jquery.ba-bbq.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/jquery.slideto.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/jquery.slideto.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/jquery.wiggle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/jquery.wiggle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/js-yaml.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/js-yaml.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/jsoneditor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/jsoneditor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/lodash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/lodash.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/marked.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/marked.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/swagger-oauth.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/lib/swagger-oauth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/o2c.html" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/o2c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/swagger-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/swagger-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/swagger-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/main/webapp/swagger/swagger-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/test/java/dw/platform/management/web/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/test/java/dw/platform/management/web/SpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/test/java/dw/platform/management/web/springTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/test/java/dw/platform/management/web/springTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/data-center-web/src/test/java/dw/platform/management/web/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/data-center-web/src/test/java/dw/platform/management/web/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-center/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iEasyUI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/iEasyUI/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/integration/spring-boot-mybatis-with-redis/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logback/src/main/java/cn/merryyou/logback/LogbackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/logback/src/main/java/cn/merryyou/logback/LogbackApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logback/src/main/java/cn/merryyou/logback/async/AsyncController.java" beforeDir="false" afterPath="$PROJECT_DIR$/logback/src/main/java/cn/merryyou/logback/async/AsyncController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logback/src/main/java/cn/merryyou/logback/async/QueueListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/logback/src/main/java/cn/merryyou/logback/async/QueueListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logback/src/main/java/cn/merryyou/logback/service/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/logback/src/main/java/cn/merryyou/logback/service/RedisLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logback/src/main/java/cn/merryyou/logback/service/SecKillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/logback/src/main/java/cn/merryyou/logback/service/SecKillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-source/spring/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-source/spring/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-source/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-source/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-source/spring/src/main/java/org/mybatis/spring/SqlSessionFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-source/spring/src/main/java/org/mybatis/spring/SqlSessionFactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-source/spring/src/main/java/org/mybatis/spring/mapper/MapperScannerConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-source/spring/src/main/java/org/mybatis/spring/mapper/MapperScannerConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-source/spring/src/test/java/org/mybatis/spring/submitted/autowire/BarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-source/spring/src/test/java/org/mybatis/spring/submitted/autowire/BarMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-source/spring/src/test/java/org/mybatis/spring/submitted/autowire/database-schema-bar.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-source/spring/src/test/java/org/mybatis/spring/submitted/autowire/database-schema-bar.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-source/spring/src/test/java/org/mybatis/spring/submitted/autowire/database-schema-foo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-source/spring/src/test/java/org/mybatis/spring/submitted/autowire/database-schema-foo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-java-goos/src/main/resources/Controller.sample" beforeDir="false" afterPath="$PROJECT_DIR$/react-java-goos/src/main/resources/Controller.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-in-action/java/src/main/java/Chapter01.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-in-action/java/src/main/java/Chapter01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-in-action/node/run-mocha-tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/redis-in-action/node/run-mocha-tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/CONTRIBUTING.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/CONTRIBUTING.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/README.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/SUPPORT.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/SUPPORT.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/ci/scripts/build-deployment-tests.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/ci/scripts/build-deployment-tests.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/ci/scripts/build-integration-tests.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/ci/scripts/build-integration-tests.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/ci/scripts/build-project.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/ci/scripts/build-project.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/ci/scripts/build-samples.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/ci/scripts/build-samples.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/ci/scripts/determine-email-body.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/ci/scripts/determine-email-body.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/ci/scripts/promote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/ci/scripts/promote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/ci/scripts/stage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/ci/scripts/stage.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/ci/scripts/sync-to-maven-central.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/ci/scripts/sync-to-maven-central.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-autoconfigure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-autoconfigure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/servlet/JspTemplateAvailabilityProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/servlet/JspTemplateAvailabilityProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-autoconfigure/src/test/java/org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorControllerIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-autoconfigure/src/test/java/org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorControllerIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-autoconfigure/src/test/resources/custom-templates/custom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-autoconfigure/src/test/resources/custom-templates/custom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-autoconfigure/src/test/resources/custom-templates/suffixed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-autoconfigure/src/test/resources/custom-templates/suffixed.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-cli/src/main/content/shell-completion/zsh/_spring" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-cli/src/main/content/shell-completion/zsh/_spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-cli/src/main/executablecontent/bin/spring" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-cli/src/main/executablecontent/bin/spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-devtools/src/main/java/org/springframework/boot/devtools/env/DevToolsPropertyDefaultsPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-devtools/src/main/java/org/springframework/boot/devtools/env/DevToolsPropertyDefaultsPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-devtools/src/main/java/org/springframework/boot/devtools/restart/server/RestartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-devtools/src/main/java/org/springframework/boot/devtools/restart/server/RestartServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-gradle-plugin/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-gradle-plugin/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader-tools/src/main/resources/org/springframework/boot/loader/tools/launch.script" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader-tools/src/main/resources/org/springframework/boot/loader/tools/launch.script" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/main/java/org/springframework/boot/loader/PropertiesLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/main/java/org/springframework/boot/loader/PropertiesLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/main/java/org/springframework/boot/loader/archive/JarFileArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/main/java/org/springframework/boot/loader/archive/JarFileArchive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/archive/ExplodedArchiveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/archive/ExplodedArchiveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/archive/JarFileArchiveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/archive/JarFileArchiveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/ConfigurationWarningsApplicationContextInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/ConfigurationWarningsApplicationContextInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/env/YamlPropertySourceLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/env/YamlPropertySourceLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-data-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-data-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-groovy-templates/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-groovy-templates/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-groovy-templates/src/test/java/sample/groovytemplates/MessageControllerWebTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-groovy-templates/src/test/java/sample/groovytemplates/MessageControllerWebTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/src/main/java/sample/web/ui/InMemoryMessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/src/main/java/sample/web/ui/InMemoryMessageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/src/main/java/sample/web/ui/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/src/main/java/sample/web/ui/MessageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/src/main/java/sample/web/ui/mvc/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/src/main/java/sample/web/ui/mvc/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-websocket-jetty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-websocket-jetty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-websocket-tomcat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-websocket-tomcat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-websocket-undertow/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-samples/spring-boot-sample-websocket-undertow/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/basic-launch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/basic-launch.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-double-link-single-java-opt.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-double-link-single-java-opt.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-multiple-command-line-arguments.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-multiple-command-line-arguments.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-multiple-java-opts.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-multiple-java-opts.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-multiple-run-args.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-multiple-run-args.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-relative-log-folder.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-relative-log-folder.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-relative-pid-folder.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-relative-pid-folder.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-single-command-line-argument.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-single-command-line-argument.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-single-java-opt.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-single-java-opt.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-single-run-arg.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-single-run-arg.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-use-of-start-stop-daemon-disabled.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/launch-with-use-of-start-stop-daemon-disabled.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/log-file-ownership-is-changed-when-created.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/log-file-ownership-is-changed-when-created.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/log-file-ownership-is-unchanged-when-exists.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/log-file-ownership-is-unchanged-when-exists.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/log-file-ownership.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/log-file-ownership.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/pid-file-ownership.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/pid-file-ownership.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/pid-folder-ownership.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/pid-folder-ownership.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/restart-when-started.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/restart-when-started.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/restart-when-stopped.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/restart-when-stopped.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/start-when-started.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/start-when-started.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/start-when-stopped.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/start-when-stopped.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/status-when-killed.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/status-when-killed.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/status-when-started.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/status-when-started.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/status-when-stopped.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/status-when-stopped.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/stop-when-stopped.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-launch-script-tests/src/test/resources/scripts/stop-when-stopped.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-task-modules/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-task-modules/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic/webmagic-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic/webmagic-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/ZhihuPageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic/webmagic-samples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/model/samples/GithubRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/model/samples/GithubRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/samples/GithubRepoPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/samples/GithubRepoPageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/samples/SinaBlogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/samples/SinaBlogProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/samples/ZhihuPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/samples/ZhihuPageProcessor.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2007646066">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/8e91e0115d5cd554d65b95290369eadbf938bdff" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="F:/integration" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/MirServiceGate/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/MirServiceGate/package.json" />
+      <path value="$PROJECT_DIR$/redis-in-action/node/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-214" />
+    <option name="y" value="231" />
+    <option name="width" value="1850" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/integration/demo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96b977a2-7f26-4e83-803a-287da6d89dfa" name="Default Changelist" comment="" />
+      <created>1534602880650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534602880650</updated>
+      <workItem from="1534602882977" duration="410000" />
+      <workItem from="1535442809904" duration="28000" />
+      <workItem from="1537064480056" duration="306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="744000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-171" y="185" width="1480" height="824" extended-state="0" />
+    <layout>
+      <window_info id="Web" side_tool="true" />
+      <window_info id="Persistence" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26933897" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/MirServiceGate/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+# ===================================================================
+# Spring Boot configuration for the "dev" profile.
+#
+# This configuration overrides the application.yml file.
+#
+# More information on profiles: http://www.jhipster.tech/profiles/
+# More information on configuration properties: http://www.jhipster.tech/common-application-properties/
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+# springboot 提供的日志,
+logging:
+    level:
+        ROOT: DEBUG
+#        spittr: DEBUG
+#    file: my.log
+
+spring:
+    profiles:
+        active: StartUp
+    jackson:
+        serialization.indent_output: true
+    redis:
+        port: 6379
+        database: 7
+        lettuce:
+          pool:
+            max-active: 10
+            min-idle: 3
+            max-idle: 8
+#    mail:
+#      host: mail.mso-china.com
+#      port: 25
+#      username: Tom.hou@mso-china.com
+#      password: woaini111
+
+server:
+    port: 8081
+    address: 0.0.0.0
+
+#mailServer:
+#    from: Tom.hou@mso-china.com
+#    to: Tom.hou@mso-china.com
+#    backupfile: /home/hcj/backup/

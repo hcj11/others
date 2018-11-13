@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: StartUp
+    profiles:
+        active: preprodtest
+info:
+    project:
+        version: 1.0 #project.version# kerberosprod preprod
+
+application:

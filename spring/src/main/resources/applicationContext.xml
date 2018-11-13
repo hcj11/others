@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <!-- init-method:
+    The name of the custom initialization method to invoke after setting
+bean properties. The method must have no arguments, but may throw any
+exception.
+
+  -->
+  <bean name="testEvent" class="bean.Listener.TestListener">
+  </bean>
+  <!--<import resource="testBean.xml"/>-->
+  <!--<bean  name="student" class="bean.Student"></bean>-->
+  <bean name="myBeanPostProcessor" class="bean.beanPostProcessor.MyBeanPostProcessor"></bean>
+
+
+  <!--<bean name="myClassPathXmlApplication" class="bean.extend.MyClassPathXmlApplication">-->
+    <!--<constructor-arg name="config" value="testBean.xml"></constructor-arg>-->
+  <!--</bean>-->
+  <!--<bean name="initBeanImpl" class="bean.InitBeanImpl.InitBeanImpl">-->
+    <!--<constructor-arg name="hah" value="ABCHAHA"></constructor-arg>-->
+  <!--</bean>-->
+  <!--<bean name="awareHelloBeanClassLoader" class="bean.AwareHello.AwareHelloBeanClassLoader"></bean>-->
+  <!--<bean name="awareHelloBeanFactory" class="bean.AwareHello.AwareHelloBeanFactory"></bean>-->
+  <!--<bean name="factory" class="bean.FactoryGenerate" factory-method="newInstance"></bean>-->
+  <!--<bean name="testA" class="bean.Circle.TestA">-->
+    <!--<property name="testB" ref="testB"></property>-->
+  <!--</bean>-->
+  <!--<bean name="testB" class="bean.Circle.TestB" scope="prototype">-->
+    <!--<property name="testC" ref="testC"></property>-->
+  <!--</bean>-->
+  <!--<bean name="testC" class="bean.Circle.TestC" scope="prototype">-->
+    <!--<property name="testA" ref="testA"></property>-->
+  <!--</bean>-->
+
+
+  <!--<bean name="testA" class="bean.Circle.TestA">-->
+  <!--<constructor-arg ref="testB">-->
+  <!--</constructor-arg>-->
+  <!--</bean>-->
+  <!--<bean name="testB" class="bean.Circle.TestB">-->
+  <!--<constructor-arg ref="testC">-->
+  <!--</constructor-arg>-->
+  <!--</bean>-->
+  <!--<bean name="testC" class="bean.Circle.TestC">-->
+  <!--<constructor-arg ref="testA">-->
+  <!--</constructor-arg>-->
+  <!--</bean>-->
+
+
+  <!--<bean id="123" name="student" class="bean.Student"></bean>-->
+  <!--<bean name="teacher" class="bean.Teacher"></bean>-->
+  <!--<alias name="teacher" alias="aaa"></alias>-->
+  <!--<alias name="teacher" alias="hhh"></alias>-->
+
+  <!--<bean name="testBean" class="bean.MyTestBean">-->
+    <!--<qualifier type="org.springframework.beans.factory.annotation.Qualifier" value="qf"></qualifier>-->
+    <!--<qualifier type="bean.MyTestBean"></qualifier>-->
+    <!--<lookup-method></lookup-method>-->
+    <!--<meta key="1" value="2"></meta>-->
+    <!--<replaced-method></replaced-method>-->
+    <!--<constructor-arg></constructor-arg>-->
+    <!--<property name="strTest"></property>-->
+    <!--<meta key="metatest" value="2"></meta>-->
+  <!--</bean>-->
+
+
+</beans>

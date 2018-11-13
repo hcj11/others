@@ -1,0 +1,13 @@
+             根据图表,从平均值和最慢,最快三个方面进行统计,来看,
+
+0. 采用10组  2000个循环的10线程加法程序测试方式,减少偶然性.
+
+1. 从10组调查结果中可以看出来,
+completionExecutor 是综合性最高的方式,同时可以保证正确性,
+平均值为0,0,0,0,0,0,..   采用提前执行多线程任务,并循环阻塞的获取结果,   completionExecutor 采用 blocking 和 Executor 的整合.
+
+2. countDownLatch 在保证正确的前提下,  由于采用多个countDownLatch对象来维持多线程的一致性,所以在多次测试中会出现耗时很高的情况,极不稳定.
+
+3.除了自己添加的  concurrentHashMap 和 FutureTask方式  其他的方式都稳定在0-5ms中,差别不大
+
+***综上,采用completionExecutor 的方式会是好的方式,***

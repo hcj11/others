@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88f4ac4e-b71b-4a88-ad21-6622b48cf2e3" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mybatisImpl$MapperTest_selectAllWithPagePlugins.coverage" NAME="MapperTest.selectAllWithPagePlugins Coverage Results" MODIFIED="1531984662887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Mybatis.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mybatisImpl$StartUp.coverage" NAME="StartUp Coverage Results" MODIFIED="1532760452332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mybatisImpl" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mybatisImpl" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mybatisImpl" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mybatisImpl" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mybatisImpl" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mybatisImpl" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1579890857">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="dtd" value="1" />
+          <entry key="gradle" value="1" />
+          <entry key="java" value="135" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="12" />
+          <entry key="yml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="DTD" value="1" />
+          <entry key="Groovy" value="1" />
+          <entry key="JAVA" value="135" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="12" />
+          <entry key="YAML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1000" />
+          <entry key="xml" value="278" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1000" />
+          <entry key="SQL" value="7" />
+          <entry key="XML" value="271" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Domain/Goods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Mybatis/OpermissLockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Mapper/GoodsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="100" selection-start-line="7" selection-start-column="100" selection-end-line="7" selection-end-column="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Config/AppConfig1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="39" column="78" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>basePackages</find>
+      <find>queryForList</find>
+      <find>settings</find>
+      <find>cacheEnabled</find>
+      <find>init</find>
+      <find>init\(</find>
+      <find>findListByRoleId</find>
+      <find>feMaleHealth</find>
+      <find>ca</find>
+      <find>public abstract java.sql.Statement org.apache.ibatis.executor.statement.StatementHandler.prepare(java.sql.Connection,java.lang.Integer) throws java.sql.SQLException</find>
+      <find>ParameterHandler</find>
+      <find>undertow</find>
+      <find>invoke</find>
+      <find>filter</find>
+      <find>findUserList</find>
+      <find>redisTemplateY</find>
+      <find>cache</find>
+      <find>mybatis_key</find>
+      <find>removeObject</find>
+      <find>reasonable</find>
+      <find>doUpdate</find>
+      <find>userList</find>
+      <find>selectAllOrderByPassword</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="F:\software\gradle-4.9-bin\gradle-4.9" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.9" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="mybatisImpl" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="mybatisImpl" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'mybatisImpl'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'mybatisImpl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'mybatisImpl'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'mybatisImpl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'mybatisImpl'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'mybatisImpl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'mybatisImpl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'mybatisImpl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'mybatisImpl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'mybatisImpl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6136011618217" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="107868102" />
+        <entry key="$PROJECT_DIR$/gradle.properties" value="3242297417" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="195966531" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.3.RELEASE/27c8cd6132784dd83e8c84ad14b603a08ed317e2/spring-boot-gradle-plugin-2.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.3.RELEASE/25d1d37146bce7cc585425f635601a2ba00c0200/spring-boot-loader-tools-2.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/3589987a66349bdc10b18c6c4a5463ffd084c908/dependency-management-plugin-1.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.7.RELEASE/54b731178d81e66eca9623df772ff32718208137/spring-core-5.0.7.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-compress-1.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.7.RELEASE/699016ddf454c2c167d9f84ae5777eccadf54728/spring-jcl-5.0.7.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="mybatisImpl" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/ant-1.9.11.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/ant-launcher-1.9.11.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-base-services-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-base-services-groovy-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-build-cache-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-build-option-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-cli-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-core-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-core-api-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-docs-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-installation-beacon-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-jvm-services-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-0.18.4.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-provider-plugins-0.18.4.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-tooling-builders-0.18.4.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-tooling-models-0.18.4.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-launcher-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-logging-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-messaging-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-model-core-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-model-groovy-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-native-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-persistent-cache-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-process-services-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-resources-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-runtime-api-info-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-tooling-api-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/gradle-wrapper-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/groovy-all-2.4.12.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-announce-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-antlr-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-build-cache-http-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-build-comparison-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-build-init-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-code-quality-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-composite-builds-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-dependency-management-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-diagnostics-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ear-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ide-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ide-native-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ide-play-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ivy-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-jacoco-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-javascript-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-groovy-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-java-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-jvm-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-native-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-scala-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-maven-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-osgi-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-base-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-jvm-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-native-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-play-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-plugin-development-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-plugin-use-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-plugins-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-publish-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-reporting-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-gcs-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-http-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-s3-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-sftp-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-scala-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-signing-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-test-kit-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-base-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-junit-platform-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-jvm-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-native-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-tooling-api-builders-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-version-control-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-workers-4.9.jar" />
+                  <option value="F:/software/gradle-4.9-bin/gradle-4.9/lib/plugins/ivy-2.2.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/production/fermion" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/production" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/production/cerberus" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/production1/81e38e3a7718fcf1276b68502f46f616e2a0041b" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/production1/cerberus" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/productionDatabase/master" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/productionManual/420a8b3588b337a1467b40c18567f31972abdc3b" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/productionManual/ae5420789d208a0dfa4628c88a90812dfba7656c" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/productionPro/7fcfa7cbcc3e34fd88539912ad72730485d51702" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/productionPro/d42e4b12a" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/productionPro/d42e4b12aad1c2a7eba693596403e1682297dd95" value="PREVIEW" />
+        <entry key="$USER_HOME$/production/productionPro/master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../MirServiceGate" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Spring-framework" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../SpringiA4_SourceCode/Chapter_09/thymeleaf" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../SpringiA4_SourceCode/Chapter_19/mail" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cerberus" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../../logback" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../mailImpl" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../redis-in-action/java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../shuoke/spring-mybatis" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../spring-security-kerberos" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/bean/UserMapper.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/Domain/Page/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Domain/Page/PageParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Mapper/PagePlugins.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringMvc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Controller/PropagationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Controller/AsyncController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Config/InterceptorConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Config/MyInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Config/MyApplicationListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Config/FilterConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Mapper/UserInsertMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Domain/UserInsert.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bean/UserInsertMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/redis/HashUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Config/MyFilterChain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Config/MyLifeCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/StartUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Service/Cache/ApplicationContextHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/redis/redisTemplate/HashUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/redis/redis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Domain/UserIdentity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Domain/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Domain/FeMaleHealth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Domain/MaleHealth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bean/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Mapper/UserIdentityMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bean/UserIdentityMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Controller/UserIndentityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Service/ProPagation/ProPagation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Service/ProPagation/ProPagationSample.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Mybatis/BatchInsert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Config/AppConfig1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringMvc/SpringMvc.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Mybatis/MapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Service/ReadAndCommit.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/application-preprodtest.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Service/RepeatableQuestion.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bean/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Service/Cache/RedisCacheService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bean/Goods.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Mapper/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Domain/Goods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Mybatis/OpermissLockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bean/GoodsMapper.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SqlNoDataSourceInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisImpl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisImpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.mybatis:mybatis:3.4.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-3.4.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
+              <item name="keygen" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="SimpleE&#9;FILE&#9;jar://C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/SimpleExecutor.java&#10;ReUseExec&#9;FILE&#9;jar://C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/ReuseExecutor.java&#10;Cache&#9;FILE&#9;file:///home/hcj/IdeaProjects/integration/mybatisImpl/src/main/java/com/Service/Cache/RedisCacheService.java&#10;PerpetualCache&#9;PSI&#9;JAVA://org.apache.ibatis.cache.impl.PerpetualCache&#10;ApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;OrderedRequestContextFilter&#9;PSI&#9;JAVA://org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter&#10;Dispatchers&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;TokenStore&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerTokenServicesConfiguration.JwkTokenStoreConfiguration&#10;Aspect&#9;PSI&#9;JAVA://org.aspectj.weaver.AjAttribute.Aspect&#10;LifeCycleProc&#9;PSI&#9;JAVA://org.springframework.context.LifecycleProcessor&#10;startBeans&#9;PSI&#9;JAVA://org.springframework.context.support.DefaultLifecycleProcessor#startBeans&#10;Life&#9;PSI&#9;JAVA://org.springframework.context.Lifecycle&#10;createBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractBeanFactory#createBean&#10;ContextRe&#9;PSI&#9;JAVA://org.springframework.web.servlet.FrameworkServlet.ContextRefreshListener&#10;Frame&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.14.RELEASE/8d46bec3782f84ed0a74ab4d3527f58ad2850e98/spring-webmvc-4.3.14.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java&#10;Dis&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.14.RELEASE/8d46bec3782f84ed0a74ab4d3527f58ad2850e98/spring-webmvc-4.3.14.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java&#10;MapperListener&#9;PSI&#9;JAVA://org.apache.catalina.core.StandardService#mapperListener&#10;Callable&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.14.RELEASE/f1db8f14d67bdcd0655d7ccd274e9f9f14b6aa7/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/context/request/async/CallableInterceptorChain.java&#10;AsyncList&#9;PSI&#9;JAVA://javax.servlet.AsyncListener&#10;FrameworkSer&#9;PSI&#9;JAVA://org.springframework.web.servlet.FrameworkServlet&#10;DispatcherSer&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;ContextRefreshedEvent&#9;PSI&#9;JAVA://org.springframework.context.event.ContextRefreshedEvent&#10;ModelAndView&#9;PSI&#9;JAVA://org.springframework.web.method.support.ModelAndViewContainer&#10;asyncWebRe&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.14.RELEASE/f1db8f14d67bdcd0655d7ccd274e9f9f14b6aa7/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/context/request/async/AsyncWebRequest.java&#10;SimpleAsync&#9;PSI&#9;JAVA://org.springframework.core.task.SimpleAsyncTaskExecutor&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;Thread&#9;PSI&#9;JAVA://java.lang.Thread&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;AsyncTa&#9;PSI&#9;JAVA://org.springframework.core.task.AsyncTaskExecutor&#10;WebAsync&#9;PSI&#9;JAVA://org.springframework.web.context.request.async.WebAsyncTask&#10;HaComposite&#9;PSI&#9;JAVA://org.springframework.web.servlet.handler.HandlerExceptionResolverComposite&#10;CaLLable&#9;PSI&#9;JAVA://org.springframework.web.context.request.async.CallableInterceptorChain&#10;WebAsyncManag&#9;PSI&#9;JAVA://org.springframework.web.context.request.async.WebAsyncManager&#10;AsyncWeb&#9;PSI&#9;JAVA://org.springframework.web.context.request.async.AsyncWebRequest&#10;AsyncContext&#9;PSI&#9;JAVA://javax.servlet.AsyncContext&#10;viewCreationCache&#9;PSI&#9;JAVA://org.springframework.web.servlet.view.AbstractCachingViewResolver#viewCreationCache&#10;HandlerMapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.HandlerMapping&#10;Fra&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.14.RELEASE/8d46bec3782f84ed0a74ab4d3527f58ad2850e98/spring-webmvc-4.3.14.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java&#10;doDispatch&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet#doDispatch&#10;LocaleContext&#9;PSI&#9;JAVA://org.springframework.web.servlet.FrameworkServlet#buildLocaleContext&#10;HttpSer&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.27/39da3cdb8ac2650c4210c74db7377806cd8e8871/tomcat-embed-core-8.5.27-sources.jar!/javax/servlet/http/HttpServlet.java&#10;Coyote&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.27/39da3cdb8ac2650c4210c74db7377806cd8e8871/tomcat-embed-core-8.5.27-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java&#10;End&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.27/39da3cdb8ac2650c4210c74db7377806cd8e8871/tomcat-embed-core-8.5.27-sources.jar!/org/apache/tomcat/util/net/AbstractEndpoint.java&#10;pip&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.27/39da3cdb8ac2650c4210c74db7377806cd8e8871/tomcat-embed-core-8.5.27-sources.jar!/org/apache/catalina/Pipeline.java&#10;Containers&#9;PSI&#9;JAVA://org.apache.catalina.ContainerServlet&#10;HttpServle&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.14.RELEASE/8d46bec3782f84ed0a74ab4d3527f58ad2850e98/spring-webmvc-4.3.14.RELEASE-sources.jar!/org/springframework/web/servlet/HttpServletBean.java&#10;BeanDefin&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;NamespaceS&#9;FILE&#9;jar:///home/hcj/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.14.RELEASE/c5a6bef4c10d616d2c34098270d874d24e7e30a1/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/xml/NamespaceHandlerSupport.java&#10;NamespaceHan&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.NamespaceHandlerSupport&#10;publishContext&#9;PSI&#9;JAVA://org.springframework.web.servlet.FrameworkServlet#publishContext" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/redis" />
+    <property name="last_opened_file_path" value="E:/上海市委党校/04.程序/s1itsm_school" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3198052" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Service.Cache" />
+      <recent name="com.Domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\integration\mybatisImpl\src\main\resources\bean" />
+      <recent name="$PROJECT_DIR$/src/main/resources/bean" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Mybatis" />
+      <recent name="com.redis" />
+      <recent name="com.Mapper" />
+      <recent name="com.Domain" />
+      <recent name="com.Config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.OpermissLockTest.test">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BatchInsert.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisImpl_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mybatis" />
+      <option name="MAIN_CLASS_NAME" value="Mybatis.BatchInsert" />
+      <option name="METHOD_NAME" value="testRedis" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.batchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisImpl_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mybatis" />
+      <option name="MAIN_CLASS_NAME" value="Mybatis.MapperTest" />
+      <option name="METHOD_NAME" value="batchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpermissLockTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisImpl_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mybatis" />
+      <option name="MAIN_CLASS_NAME" value="Mybatis.OpermissLockTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMvc.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisImpl_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringMvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpringMvc" />
+      <option name="MAIN_CLASS_NAME" value="SpringMvc.SpringMvc" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartUp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mybatisImpl_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.StartUp" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.StartUp" />
+      <item itemvalue="JUnit.BatchInsert.testRedis" />
+      <item itemvalue="JUnit.MapperTest.batchTest" />
+      <item itemvalue="JUnit.SpringMvc.test" />
+      <item itemvalue="JUnit.OpermissLockTest.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OpermissLockTest.test" />
+        <item itemvalue="Spring Boot.StartUp" />
+        <item itemvalue="JUnit.MapperTest.batchTest" />
+        <item itemvalue="JUnit.SpringMvc.test" />
+        <item itemvalue="JUnit.BatchInsert.testRedis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88f4ac4e-b71b-4a88-ad21-6622b48cf2e3" name="Default" comment="" />
+      <created>1531740547435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531740547435</updated>
+      <workItem from="1531740550394" duration="699000" />
+      <workItem from="1531742060646" duration="1294000" />
+      <workItem from="1531743673902" duration="1107000" />
+      <workItem from="1531744827257" duration="163270000" />
+      <workItem from="1532260952687" duration="4623000" />
+      <workItem from="1532445127992" duration="4007000" />
+      <workItem from="1532655446406" duration="5443000" />
+      <workItem from="1532665984160" duration="658000" />
+      <workItem from="1532755404619" duration="25141000" />
+      <workItem from="1532787672457" duration="1830000" />
+      <workItem from="1532823680866" duration="4462000" />
+      <workItem from="1532929723162" duration="5059000" />
+      <workItem from="1533101860720" duration="2814000" />
+      <workItem from="1533558412138" duration="276000" />
+      <workItem from="1533691013884" duration="693000" />
+      <workItem from="1533966219500" duration="663000" />
+      <workItem from="1534036800320" duration="597000" />
+      <workItem from="1539742466583" duration="9396000" />
+      <workItem from="1539762435805" duration="17175000" />
+      <workItem from="1539854141266" duration="563000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OpermissLockTest_test - 2018.10.18 at 15h 34m 50s.xml">
+      <configuration name="OpermissLockTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpermissLockTest_test - 2018.10.18 at 15h 50m 11s.xml">
+      <configuration name="OpermissLockTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpermissLockTest_test - 2018.10.18 at 16h 53m 23s.xml">
+      <configuration name="OpermissLockTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpermissLockTest_test - 2018.10.18 at 16h 54m 01s.xml">
+      <configuration name="OpermissLockTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpermissLockTest_test - 2018.10.18 at 16h 54m 59s.xml">
+      <configuration name="OpermissLockTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpermissLockTest_test - 2018.10.18 at 16h 55m 46s.xml">
+      <configuration name="OpermissLockTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpermissLockTest_test - 2018.10.18 at 17h 17m 32s.xml">
+      <configuration name="OpermissLockTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpermissLockTest_test - 2018.10.18 at 17h 19m 11s.xml">
+      <configuration name="OpermissLockTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpermissLockTest_test - 2018.10.18 at 17h 20m 01s.xml">
+      <configuration name="OpermissLockTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpermissLockTest_test - 2018.10.18 at 17h 21m 03s.xml">
+      <configuration name="OpermissLockTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="249770000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.17828418" />
+      <window_info id="Structure" order="1" weight="0.16353887" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Web" order="3" sideWeight="0.50141644" side_tool="true" weight="0.14410187" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Learn" order="5" weight="0.3297587" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59490085" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49804142" weight="0.7407932" />
+      <window_info anchor="bottom" x="734" y="390" width="170" height="47" id="TODO" order="6" type="WINDOWED" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5030778" side_tool="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49692222" weight="0.32894737" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32894737" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24958031" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Bean Validation" order="4" weight="0.3296027" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3296027" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.66200334" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3296027" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3296027" />
+      <window_info anchor="right" id="Mongo Explorer" order="9" weight="0.576385" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.14.RELEASE/f1db8f14d67bdcd0655d7ccd274e9f9f14b6aa7/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.14.RELEASE/eb0745e260fafbf73761804987170988121c32a0/spring-tx-4.3.14.RELEASE-sources.jar!/org/springframework/transaction/support/AbstractTransactionStatus.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.27/39da3cdb8ac2650c4210c74db7377806cd8e8871/tomcat-embed-core-8.5.27-sources.jar!/javax/servlet/http/HttpServlet.java</url>
+          <line>660</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.14.RELEASE/f1db8f14d67bdcd0655d7ccd274e9f9f14b6aa7/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/context/request/async/CallableInterceptorChain.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.14.RELEASE/f1db8f14d67bdcd0655d7ccd274e9f9f14b6aa7/spring-web-4.3.14.RELEASE-sources.jar!/org/springframework/web/context/request/async/CallableInterceptorChain.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.14.RELEASE/63fd73134126b6ae088666fb720f5437bcb39cfa/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>1310</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.14.RELEASE/63fd73134126b6ae088666fb720f5437bcb39cfa/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/support/DefaultLifecycleProcessor.java</url>
+          <line>359</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Service/ReadAndCommit.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Controller/Controller.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Service/ReadAndCommit.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Controller/Controller.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression=" rs.getObject(columnName)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/SimpleExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="63" column="15" selection-start-line="59" selection-start-column="11" selection-end-line="63" selection-end-column="15" />
+          <folding>
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/BatchExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          <folding>
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/BaseExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="203" column="33" selection-start-line="200" selection-start-column="20" selection-end-line="203" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8688">
+          <caret line="556" column="179" selection-start-line="556" selection-start-column="179" selection-end-line="556" selection-end-column="179" />
+          <folding>
+            <element signature="e#16003#16004#0" expanded="true" />
+            <element signature="e#16035#16036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/mapping/BoundSql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/ResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/software/jdk1.8/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16608">
+          <caret line="715" column="14" selection-start-line="715" selection-start-column="14" selection-end-line="715" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/keygen/Jdbc3KeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Service/ReadAndCommit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Config/MyFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Controller/ReadAndCommitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Service/Cache/ApplicationContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/application-preprodtest.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://F:/software/jdk1.8/jre/lib/rt.jar!/com/sun/rowset/CachedRowSetImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="1028" column="15" selection-start-line="1028" selection-start-column="15" selection-end-line="1028" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/loader/ResultLoaderMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="231" column="37" selection-start-line="231" selection-start-column="37" selection-end-line="231" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/logging/jdbc/ResultSetLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/software/jdk1.8/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="587" column="8" selection-start-line="587" selection-start-column="8" selection-end-line="587" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Config/CustomEnumTypeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
+          <folding>
+            <element signature="e#3333#3334#0" expanded="true" />
+            <element signature="e#3373#3374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Service/Cache/RedisCacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Service/RepeatableQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Config/MyLifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Controller/RepeatableController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+          <folding>
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Service/ProPagation/ProPagationSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.0.8.RELEASE/29746cfac4d476ea0864c5639cd4a0aa60701053/spring-data-redis-2.0.8.RELEASE-sources.jar!/org/springframework/data/redis/connection/FutureResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/2.0.8.RELEASE/29746cfac4d476ea0864c5639cd4a0aa60701053/spring-data-redis-2.0.8.RELEASE-sources.jar!/org/springframework/data/redis/repository/cdi/CdiBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.0.8.RELEASE/33fd91acb8935df722e05e0870a683ac1d3076a7/spring-data-commons-2.0.8.RELEASE-sources.jar!/org/springframework/data/annotation/Version.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="140" column="10" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Mapper/FeMaleHealthMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Mybatis/SqlSessionFactoryUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Mybatis/MapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="71" column="12" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringMvc/SpringMvc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Mybatis/BatchInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.6/bdf12283a2374b67a2411355947cd726bef6e800/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.7.RELEASE/a27f8bef36683aaab1a41f93e74b72b28377b2be/spring-test-5.0.7.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.7.RELEASE/a27f8bef36683aaab1a41f93e74b72b28377b2be/spring-test-5.0.7.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean/FeMaleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Domain/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Mapper/MyPlugins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Domain/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="100" selection-start-line="7" selection-start-column="100" selection-end-line="7" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Config/AppConfig1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="39" column="78" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Mybatis/OpermissLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mybatisImpl</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3198052" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

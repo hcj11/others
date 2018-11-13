@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spittr-Thymeleaf.iml" filepath="$PROJECT_DIR$/.idea/modules/Spittr-Thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spittr-Thymeleaf_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spittr-Thymeleaf_main.iml" group="Spittr-Thymeleaf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spittr-Thymeleaf_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spittr-Thymeleaf_test.iml" group="Spittr-Thymeleaf" />
+    </modules>
+  </component>
+</project>

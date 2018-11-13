@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aspectj>
+  <weaver
+    options="-showWeaveInfo -XmessageHandlerClass:org.springframework.aop.aspectj.AspectJWeaverMessageHandler">
+    <!-- 2. 指定需要进行织入操作的目标类范围 -->
+    <include within="bean.proxy.*" />
+  </weaver>
+  <aspects>
+    <!-- 1.切面类 -->
+    <aspect name="bean.proxy.baseTest.helloProxy" />
+  </aspects>
+</aspectj>
